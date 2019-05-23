@@ -1,0 +1,93 @@
+<html>
+        <head>
+                <link href="https://fonts.googleapis.com/css?family=Work+Sans:400"> <!-- youtube video: https://www.youtube.com/watch?v=FEmysQARWFU -->
+                <link href="file:///Users/douniamansouri/Desktop/styleCommande.css" rel="stylesheet" type="text/css">
+                <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+                <!-- Compiled and minified JavaScript -->
+                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+                
+                <meta charset="UFT-8">
+        
+        <title>Commande de nourriture</title>
+        </head>
+
+
+<body>
+
+<!--From website: https://1stwebdesigner.com/free-open-source-css3-checkout-forms/-->
+<header>
+        <div class="container2"> 
+                <img src="file:///Users/douniamansouri/Desktop/logo.png" alt="logo" class="logo">
+
+                <nav>
+                        <ul>
+                                 <li><a href="file:///Users/douniamansouri/Desktop/pageDacceuil.htm">Page d'acceuil</a></li>
+                                 <li><a href="file:///Users/douniamansouri/Desktop/listeDeResto.htm">Liste de restaurants</a></li>
+                                 <li><a href="file:///Users/douniamansouri/Desktop/menu.htm">Menu</a></li>
+                                 <li><a href="file:///Users/douniamansouri/Desktop/commande.htm">Commande</a></li>
+                                 <li><a href="file:///Users/douniamansouri/Desktop/paiement.htm">Paiement</a></li>
+                        </ul>
+                         
+                </nav>
+                  
+        </div> 
+</header>
+
+
+<div class="container">
+  
+  <div class="table">
+    <div class="merchant">
+      <h5 class="center-align">Crickets Café</h5>
+      <p>May 22th, 2019 9:36 PM</p>
+    </div>
+    <div class="invoice">
+      <table class="highlight">
+        <thead>
+          <tr>
+            <th>QTY</th>
+            <th>ITEM</th>
+            <th class="right-align">PRICE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>Blue Collar Special</td>
+            <td class="right-align">$5.60</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Denver</td>
+            <td class="right-align">$11.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="right-align">Tax</td>
+            <td class="right-align">$0.50</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="right-align bold">Total</td>
+            <td class="right-align bold">$16.60</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+       
+
+    <div class="button_checkout">
+      <button>Checkout</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+</body>
+</html>
